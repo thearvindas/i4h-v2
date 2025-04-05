@@ -561,6 +561,18 @@ footer {
 footer .container {
   position: relative;
   z-index: 2;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+footer .credits {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--accent);
 }
 
 footer a {

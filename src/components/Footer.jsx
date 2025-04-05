@@ -1,10 +1,10 @@
+import React from 'react';
+
 const Footer = () => {
   return (
     <footer>
       <div className="container">
-        <p className="text-center">
-          © {new Date().getFullYear()} Healing Beyond. All rights reserved.
-        </p>
+        <p className="credits">built by Anthonia, Arvin, Kanval, Soul & Sukriti for Innovation4Health 2025</p>
       </div>
     </footer>
   );
