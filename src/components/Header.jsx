@@ -41,7 +41,7 @@ const Header = () => {
             >
               <li><Link to="/pelvic-pain-101">Pelvic Pain 101</Link></li>
               <li><Link to="/overcoming-pain">Overcoming Pain</Link></li>
-              <li><Link to="/resources">Treatment</Link></li>
+              <li><Link to="/resources">Resources</Link></li>
               <li><Link to="/recommendations">Recommendations</Link></li>
               <li><Link to="/about">About</Link></li>
             </motion.ul>

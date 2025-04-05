@@ -2,13 +2,6 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import resourcesData from '../data/resources.json';
 
-const types = [
-  { value: 'all', label: 'All Types' },
-  { value: 'app', label: 'Apps' },
-  { value: 'book', label: 'Books' },
-  { value: 'resource', label: 'Resources' }
-];
-
 const ResourceCard = ({ resource }) => (
   <motion.div
     className="resource-card"
@@ -24,24 +17,20 @@ const ResourceCard = ({ resource }) => (
         </span>
       )}
     </div>
-    <div className="resource-meta">
-      <span className="type-badge">{resource.type}</span>
-    </div>
     <p>{resource.description}</p>
     {resource.creator && (
       <div className="creator">
         <small>Created by: {resource.creator}</small>
       </div>
     )}
-    <a href={resource.link} className="button primary" target="_blank" rel="noopener noreferrer">
-      Learn More
+    <a href={resource.link} className="button" target="_blank" rel="noopener noreferrer">
+      Visit
     </a>
   </motion.div>
 );
 
 const Recommendations = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedType, setSelectedType] = useState('all');
   const [showCanadianOnly, setShowCanadianOnly] = useState(false);
 
   const filterResources = () => {
@@ -51,11 +40,10 @@ const Recommendations = () => {
         resource.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
         resource.creator.toLowerCase().includes(searchTerm.toLowerCase());
       
-      const matchesType = selectedType === 'all' || resource.type === selectedType;
       const matchesCanadian = !showCanadianOnly || resource.isCanadian;
       const isPatientRec = resource.category === 'patient-recs';
 
-      return matchesSearch && matchesType && matchesCanadian && isPatientRec;
+      return matchesSearch && matchesCanadian && isPatientRec;
     });
   };
 
@@ -79,23 +67,21 @@ const Recommendations = () => {
               transition={{ duration: 0.6 }}
               className="search-wrapper"
             >
-              <input
-                type="text"
-                className="search-input"
-                placeholder="Search recommendations..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-              />
+              <div className="search-input-container">
+                <input
+                  type="text"
+                  className="search-input"
+                  placeholder="Search recommendations..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                />
+                <button className="search-button" aria-label="Search">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </button>
+              </div>
               <div className="filters">
-                <select
-                  value={selectedType}
-                  onChange={(e) => setSelectedType(e.target.value)}
-                  className="filter-select"
-                >
-                  {types.map(type => (
-                    <option key={type.value} value={type.value}>{type.label}</option>
-                  ))}
-                </select>
                 <label className="canadian-filter">
                   <input
                     type="checkbox"
