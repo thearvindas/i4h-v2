@@ -1,0 +1,462 @@
+[
+  {
+    "id": "1",
+    "title": "Tame The Best",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "Online resources that reframe chronic pain by understanding it as more than just physical pain. It promotes retraining the nervous system through education, movement, and mindset shifts to reduce suffering.",
+    "creator": "University of South Australia",
+    "link": "https://www.tamethebeast.org/",
+    "isCanadian": false
+  },
+  {
+    "id": "2",
+    "title": "Pain Revolution",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "A program that trains health professionals to teach communities about pain science. It empowers people to manage chronic pain through education, movement, and self-care strategies.",
+    "creator": "University of South Australia",
+    "link": "https://www.painrevolution.org/lpe-program",
+    "isCanadian": false
+  },
+  {
+    "id": "3",
+    "title": "Pain Trainer",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "An interactive, online program that teaches effective research-backed strategies to manage pain.",
+    "creator": "Melbourne School of Health Sciences",
+    "link": "https://www.paintrainer.org",
+    "isCanadian": false
+  },
+  {
+    "id": "4",
+    "title": "Pelvic Rehab",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "An online course that covers pain education, mind-body connection, and nervous system retraining, with exercises in brain mapping, NLP, self-hypnosis, mindfulness, and therapies like light and sound.",
+    "creator": "Private clinics across the USA",
+    "link": "https://pelvicrehabilitation.com/product/retrain-your-pelvic-pain-workshop/",
+    "isCanadian": false
+  },
+  {
+    "id": "5",
+    "title": "Chronic Pain Centre, UCalgary",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "A collection of resources to educate and empower people with chronic pain to achieve mental and physical well-being.",
+    "creator": "University of Calgary",
+    "link": "https://cumming.ucalgary.ca/centres/anesthesiology/chronic-pain-centre",
+    "isCanadian": true
+  },
+  {
+    "id": "6",
+    "title": "Pain BC",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "A non-profit focusing on providing resources, education, and support to individuals suffering from pain, as well as to healthcare providers and communities",
+    "creator": "Pain BC Society",
+    "link": "https://painbc.ca/",
+    "isCanadian": true
+  },
+  {
+    "id": "7",
+    "title": "Retrain Pain Foundation",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "A collection of resources to educate clinicians and organizations with innovative training programs to transform pain care.",
+    "creator": "Private hospitals & orgs across the USA",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "8",
+    "title": "Power Over Pain",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "Resources for chronic pain, including videos, articles, online workshops, support groups, 24/7 counseling, and research-based pain management courses, with wellness assessments and provincial resources.",
+    "creator": "Hospital & research foundations across Canada",
+    "link": "https://poweroverpain.ca/",
+    "isCanadian": true
+  },
+  {
+    "id": "9",
+    "title": "The IMPACT Program",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "Platform to access Power Over Pain through efficient video modules (45-60 mins) on Reclaiming Your Life with ACT (Acceptance and Commitment Therapy) and Mindfulness to manage chronic pain.",
+    "creator": "Power Over Pain",
+    "link": "https://learn.poweroverpain.ca/courses/impactprogram",
+    "isCanadian": true
+  },
+  {
+    "id": "10",
+    "title": "Empowered Management Program",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "An online course that covers strategies for pain management through biopsychosocial and self-compassion approaches.",
+    "creator": "Power Over Pain",
+    "link": "https://learn.poweroverpain.ca/courses/take/empowered-management-multimedia/texts/38470548-welcome",
+    "isCanadian": true
+  },
+  {
+    "id": "11",
+    "title": "TAPMI Pain",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "A collection of online modules on sleep, pain medications, stress, lifestyle, communication & pain flares \n",
+    "creator": "Toronto Academic Pain Medicine Institute",
+    "link": "https://tapmipain.ca/patient/",
+    "isCanadian": true
+  },
+  {
+    "id": "12",
+    "title": "The Vulvodynia Primary Care Toolkit",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "Resources for those affected by vulvodynia, providing educational materials, self-care tips, treatment options, and expert guidance to help manage and understand this chronic condition.",
+    "creator": "BC Centre for Vulvar Health & Doctors of BC ",
+    "link": "https://www.vulvodyniatoolkit.com/",
+    "isCanadian": true
+  },
+  {
+    "id": "13",
+    "title": "Hello Vulva",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "An Instagram account focused on educating and empowering individuals on vulvar health, raising awareness, and breaking the stigma around vulvodynia and related conditions.",
+    "creator": "BC Centre for Vulvar Health",
+    "link": "https://www.instagram.com/hello.vulva/?hl=en",
+    "isCanadian": true
+  },
+  {
+    "id": "14",
+    "title": "Your Period",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "This site dives deep into endometriosis—what it is, why it happens, and how to manage it. Patients can explore detailed guides, treatment options, diagnosis methods, personal stories, live Q&As, and culturally sensitive resources tailored to diverse communities.",
+    "creator": "Society of Obstetricians and Gynaecologists of Canada (SOGC)",
+    "link": "https://www.yourperiod.ca/endometriosis2/",
+    "isCanadian": true
+  },
+  {
+    "id": "15",
+    "title": "Sex & U",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "SexandU.ca's \"Concerns & Sexual Problems\" section addresses common sexual health issues like painful intercourse, erectile dysfunction, and low libido. It emphasizes open communication, encourages consulting healthcare professionals, and explores available treatment options to enhance sexual well-being. ",
+    "creator": "Society of Obstetricians and Gynaecologists of Canada (SOGC)",
+    "link": "https://www.sexandu.ca/sexual-activity/concerns-sexual-problems/",
+    "isCanadian": true
+  },
+  {
+    "id": "16",
+    "title": "Endometriosis Portal \r",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "GynQI.com provides a comprehensive guide to endometriosis, detailing symptoms like pelvic pain and infertility, diagnostic challenges, and various treatment options, including hormonal therapies and surgical interventions, to empower individuals in managing this chronic condition",
+    "creator": "Gynaecology Quality Improvement Collaboration",
+    "link": "https://gynqi.com/endometriosis/",
+    "isCanadian": true
+  },
+  {
+    "id": "17",
+    "title": "Omgyes",
+    "category": "patient-recs",
+    "type": "resource",
+    "description": "OMGYES is an interactive platform offering research-based insights into women's sexual pleasure. Through candid videos, animations, and touchable simulations, it educates individuals and couples on diverse techniques to enhance intimacy and understanding.",
+    "creator": "Omgyes",
+    "link": "https://start.omgyes.com/join",
+    "isCanadian": false
+  },
+  {
+    "id": "18",
+    "title": "Prosayla",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "Prosayla offers a comprehensive collection of medically reviewed articles focusing on female sexual health. Topics include anorgasmia, menopause's impact on sexuality, pelvic floor dysfunction, and more, providing evidence-based information to support women's well-being. ​",
+    "creator": "The International Society for the Study of Women’s Sexual Health (ISSWSH) ",
+    "link": "https://www.prosayla.com/articles",
+    "isCanadian": false
+  },
+  {
+    "id": "19",
+    "title": "National Vulvodynia Association",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "The National Vulvodynia Association's Self-Help Tips section offers practical advice for managing vulvar pain. It covers clothing choices, hygiene practices, sexual activity adjustments, and physical activity modifications to alleviate discomfort and prevent further irritation. ​",
+    "creator": "The National Vulvodynia Association",
+    "link": "https://www.nva.org/for-patients/self-help-tips/",
+    "isCanadian": false
+  },
+  {
+    "id": "20",
+    "title": "Long Term Pelvic Pain\r",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "The Royal College of Obstetricians and Gynaecologists provides comprehensive information on chronic pelvic pain, including potential causes, diagnostic procedures, and treatment options, empowering individuals to make informed decisions about their health. ​",
+    "creator": "RCOG Patient Information Committee",
+    "link": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/long-term-pelvic-pain/\n",
+    "isCanadian": false
+  },
+  {
+    "id": "21",
+    "title": "Hope Mental Health for Women",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "HopeMentalHealth4Women.com offers resources for women's emotional well-being, including articles on emotional strengths and attachment, and courses on interpersonal psychotherapy for relationships and grief, supporting women in their mental health journey.",
+    "creator": "University of Calgary, Spark Calgary, CIHR, Royal Alexandra Hospital Foundation, AWHF, Lois Hole Hospital for Women, Women&Children's health research institute ",
+    "link": "https://hopementalhealth4women.com/",
+    "isCanadian": true
+  },
+  {
+    "id": "22",
+    "title": "Mindful Coping\r",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "MindfulCoping.com offers free, science-based, audio-guided lessons and exercises developed by psychologists to enhance stress resilience. Users can learn effective coping strategies for managing stress, emotions, and life's challenges through accessible, research-backed techniques.",
+    "creator": "Yale University School of Medicine, John Hopkins University School of Medicine, University of New Mexico, New Mexico Veterans Affairs Healthcare System",
+    "link": "https://www.mindfulcoping.com",
+    "isCanadian": false
+  },
+  {
+    "id": "23",
+    "title": "Anxiety Canada\r",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "Anxiety Canada is a registered charity offering free, evidence-based resources to help individuals understand and manage anxiety. Their offerings include self-help articles, educational videos, and the MindShift CBT app, supporting mental well-being across various age groups",
+    "creator": "Anxiety Canada",
+    "link": "https://www.anxietycanada.com/",
+    "isCanadian": true
+  },
+  {
+    "id": "24",
+    "title": "Center for Mindful Self-Compassion\r",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "The Center for Mindful Self-Compassion offers programs and resources to cultivate self-compassion, including online courses, workshops, and free guided meditations. Founded by Drs. Kristin Neff and Chris Germer, it aims to enhance emotional resilience and well-being.",
+    "creator": "Dr. Kristin Neff and Dr. Chris Germer",
+    "link": "https://centerformsc.org/",
+    "isCanadian": false
+  },
+  {
+    "id": "25",
+    "title": "Self-Compassion\r",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "Self-Compassion.org, created by Dr. Kristin Neff, offers resources to cultivate self-kindness, including guided meditations, exercises, and research articles. It aims to help individuals embrace their imperfections and enhance emotional resilience through self-compassion practices.",
+    "creator": "Dr. Kristin Neff",
+    "link": "https://self-compassion.org\r",
+    "isCanadian": false
+  },
+  {
+    "id": "26",
+    "title": "Therapy in a Nutshell",
+    "category": "treatment-management",
+    "type": "resource",
+    "description": "The \"Leaves on a Stream\" video introduces a mindfulness exercise rooted in Acceptance and Commitment Therapy (ACT). It guides viewers to observe their thoughts as leaves floating by, promoting cognitive defusion and reducing overthinking",
+    "creator": "Emma McAdam",
+    "link": "https://www.youtube.com/watch?v=vjKltKKSur8",
+    "isCanadian": false
+  },
+  {
+    "id": "27",
+    "title": "My Pain Diary: Chronic Pain & Symptom Tracker",
+    "category": "treatment-management",
+    "type": "app",
+    "description": "Allows you to track, manage, and report on your pain, symptoms, and triggers. An interactive graph and color-coded calendar help you identify patterns, trends, and correlations.",
+    "creator": "",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "28",
+    "title": "Pain Diary and Forum-CatchMyPain",
+    "category": "treatment-management",
+    "type": "app",
+    "description": "Allows you to visualize and monitor your pain by creating detailed drawings and by tracking other relevant information. The diary will help you to explain your pain to any medical practitioner. In addition, you can exchange insights with others",
+    "creator": "",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "29",
+    "title": "Pain Scale",
+    "category": "treatment-management",
+    "type": "app",
+    "description": " In addition to its tracking function, you can also check out the app’s community feature, to see how other people with similar conditions manage their pain. The app also includes a library of articles and videos from medical sources.",
+    "creator": "",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "30",
+    "title": "Calm",
+    "category": "patient-recs",
+    "type": "app",
+    "description": "Calm is a popular mental wellness app offering guided meditations, breathing exercises, sleep stories, and relaxing music. It supports better sleep, stress reduction, and mindfulness through beautifully designed, user-friendly tools for daily emotional and mental health care.",
+    "creator": "",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "31",
+    "title": "Insight Timer",
+    "category": "patient-recs",
+    "type": "app",
+    "description": "Insight Timer is a free meditation app offering over 230,000 guided meditations, music tracks, and talks from 17,000 teachers. It includes a customizable timer, mood tracking, and community groups, supporting mindfulness, stress reduction, and sleep improvement.",
+    "creator": "",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "32",
+    "title": "Curable ",
+    "category": "patient-recs",
+    "type": "app",
+    "description": "Curable is an app designed to help individuals manage chronic pain through a biopsychosocial approach. It offers personalized programs featuring guided meditations, cognitive behavioral therapy techniques, pain science education, and expressive writing exercises to address the physical, emotional, and psychological aspects of pain.",
+    "creator": "",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "33",
+    "title": "Headspace",
+    "category": "patient-recs",
+    "type": "app",
+    "description": "Headspace is a comprehensive mental health app offering guided meditations, mindfulness exercises, sleep aids, and stress management tools. Designed for users of all experience levels, it aims to improve focus, reduce anxiety, and promote overall well-being.",
+    "creator": "",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "34",
+    "title": "Better Sex Through Mindfulness ",
+    "category": "patient-recs",
+    "type": "book",
+    "description": "\"Better Sex Through Mindfulness\" by Dr. Lori Brotto offers a groundbreaking approach to enhancing women's sexual desire and satisfaction using mindfulness techniques. The accompanying workbook provides practical exercises to cultivate desire and improve intimacy.",
+    "creator": "Dr. Lori Brotto",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "35",
+    "title": "The Mindful Self-Compassion Workbook",
+    "category": "patient-recs",
+    "type": "book",
+    "description": "\"The Mindful Self-Compassion Workbook\" by Dr. Kristin Neff and Christopher Germer offers a structured, science-based program with practical exercises, meditations, and reflective practices to help readers cultivate self-compassion, enhance emotional resilience, and improve overall well-being. ",
+    "creator": "Dr. Kristin Neff and Christopher Germer",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "36",
+    "title": "Living Untethered",
+    "category": "patient-recs",
+    "type": "book",
+    "description": "\"Living Untethered\" by Michael A. Singer offers practical guidance on transcending habitual thoughts and emotions to achieve self-realization and unconditional happiness. It explores the origins of inner disturbances and provides strategies for releasing them to experience life's fullness",
+    "creator": "Michael Singer",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "37",
+    "title": "Freedom from Pain",
+    "category": "patient-recs",
+    "type": "book",
+    "description": "\"Freedom from Pain\" by Drs. Peter A. Levine and Maggie Phillips presents a mind-body approach to chronic pain relief. It offers strategies to address unresolved emotional trauma, including mindfulness, controlled breathing, and affirmations, aiming to alleviate suffering and enhance well-being. ",
+    "creator": "Dr. Peter A. Levine and Maggie Phillips",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "38",
+    "title": "Well-being",
+    "category": "patient-recs",
+    "type": "resource",
+    "description": "Well-being by Penny offers virtual pelvic floor yoga classes tailored for individuals with hypertonic pelvic floor dysfunction. Led by certified instructor Penny Petersson, the program focuses on movement, breathwork, and body awareness to alleviate tension and manage pelvic pain.",
+    "creator": "Penny Petersson",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "39",
+    "title": "Well Central",
+    "category": "patient-recs",
+    "type": "resource",
+    "description": "Well Central is a free, self-directed online platform offering interactive courses designed to enhance mental health and support recovery. Developed by the Canadian Mental Health Association, it empowers individuals to take control of their well-being through accessible education.",
+    "creator": " Canadian Mental Health Association",
+    "link": "https://wellcentral.ca/",
+    "isCanadian": true
+  },
+  {
+    "id": "40",
+    "title": "Holden QiGong",
+    "category": "patient-recs",
+    "type": "resource",
+    "description": "Holden QiGong, founded by Lee Holden, offers online programs blending traditional Qi Gong practices with modern insights. It provides courses, live classes, and workshops aimed at enhancing physical health, mental clarity, and emotional balance through accessible mind-body exercises",
+    "creator": "Lee Holden",
+    "link": "https://www.holdenqigong.com/",
+    "isCanadian": false
+  },
+  {
+    "id": "41",
+    "title": "Ride the Wave",
+    "category": "patient-recs",
+    "type": "resource",
+    "description": "\"Ride the Wave\" is a mindfulness-based coping strategy that encourages individuals to observe and accept their emotional experiences without resistance. By acknowledging feelings as they arise and allowing them to pass naturally, this technique fosters emotional resilience and reduces distress.",
+    "creator": "PCMH Colorado",
+    "link": "https://youtu.be/MDYXP_zyu_Y",
+    "isCanadian": false
+  },
+  {
+    "id": "42",
+    "title": "Vibrant Pelvic Health",
+    "category": "patient-recs",
+    "type": "resource",
+    "description": "Dr. Bri's Vibrant Pelvic Health offers online programs designed to address pelvic health issues such as pelvic pain and prolapse. These programs incorporate daily routines, mindset strategies, nutrition guidance, and relaxation techniques to support individuals on their healing journey",
+    "creator": "Dr. Bri",
+    "link": "https://www.vibrantpelvichealth.com/",
+    "isCanadian": false
+  },
+  {
+    "id": "43",
+    "title": "PowerOverPain",
+    "category": "patient-recs",
+    "type": "resource",
+    "description": "PowerOverPain.ca is a Canadian portal offering free, evidence-based resources for chronic pain management. It provides articles, videos, self-directed courses, and peer support to empower individuals in their pain management journey. ",
+    "creator": "Hospital & research foundations across Canada",
+    "link": "https://poweroverpain.ca/",
+    "isCanadian": false
+  },
+  {
+    "id": "44",
+    "title": "Mindfulness-Based Stress Reduction (MBSR) course",
+    "category": "patient-recs",
+    "type": "resource",
+    "description": "Palouse Mindfulness offers a free, self-guided 8-week Mindfulness-Based Stress Reduction (MBSR) course, developed by certified instructor Dave Potter. Based on Jon Kabat-Zinn's program, it includes guided meditations, readings, and videos to help individuals manage stress and enhance well-being. ",
+    "creator": "Dave Potter",
+    "link": "https://palousemindfulness.com/index.html",
+    "isCanadian": false
+  },
+  {
+    "id": "45",
+    "title": "Come as You Are",
+    "category": "patient-recs",
+    "type": "book",
+    "description": "\"Come as You Are\" by Dr. Emily Nagoski explores the latest scientific research on women's sexuality, offering insights into the complexities of desire and arousal. The book provides practical guidance for enhancing sexual well-being and confidence. ",
+    "creator": "Dr. Emily Nagoski",
+    "link": "#",
+    "isCanadian": false
+  },
+  {
+    "id": "46",
+    "title": "Burnout: The Secret to Unlocking the Stress Cycle",
+    "category": "patient-recs",
+    "type": "book",
+    "description": "\"Burnout: The Secret to Unlocking the Stress Cycle\" by Emily and Amelia Nagoski examines how chronic stress uniquely affects women. It offers science-based strategies to complete the stress cycle, manage emotions, and lead a more balanced, joyful life.",
+    "creator": "Dr. Emily and Amelia Nagoski ",
+    "link": "#",
+    "isCanadian": false
+  }
+]
