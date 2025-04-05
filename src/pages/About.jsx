@@ -2,20 +2,17 @@ import { motion } from 'framer-motion';
 
 const teamMembers = [
   {
-    name: 'Dr. Sarah Johnson',
-    role: 'Medical Director',
-    bio: 'Board-certified physician specializing in pelvic pain management with over 15 years of experience.',
+    name: 'Dr. Erin Kelly',
+    role: 'Term Clinical Associate Professor',
+    bio: 'Department of Obstetrics and Gynaecology, Faculty of Medicine & Dentistry at the University of Alberta.',
+    email: 'eckelly@ualberta.ca'
   },
   {
-    name: 'Dr. Michael Chen',
-    role: 'Research Lead',
-    bio: 'PhD in pain research, focusing on innovative approaches to chronic pain management.',
-  },
-  {
-    name: 'Emily Rodriguez',
-    role: 'Patient Advocate',
-    bio: 'Lived experience with chronic pelvic pain and dedicated to supporting others on their journey.',
-  },
+    name: 'Dr. Annick Poirier',
+    role: 'Clinical Lecturer',
+    bio: 'Department of Obstetrics and Gynaecology, Faculty of Medicine & Dentistry at the University of Alberta.',
+    email: 'annick1@ualberta.ca'
+  }
 ];
 
 const About = () => {
@@ -32,12 +29,27 @@ const About = () => {
 
       <section className="mission">
         <div className="container">
-          <div className="text-center">
-            <h2>Our Mission</h2>
+          <h2>Our Mission</h2>
+          <div className="mission-transition">
+            This website is our first step towards moving forward this mission.
+          </div>
+          <div className="mission-content">
             <p>
-              We believe in a comprehensive approach to pelvic pain management,
-              combining medical expertise with lived experience to create a
-              supportive community and valuable resources.
+              Chronic pelvic pain (CPP) in women is a complex condition often met with delayed diagnosis and inadequate care due to systemic barriers. Many women report that their symptoms are diminished or dismissed, and effective treatment remains elusive. Managing CPP requires a holistic, biopsychosocial approach, yet time constraints in medical settings make comprehensive care challenging.
+            </p>
+            <p>
+              To address this, we propose developing a digital tool that empowers patients by helping them track symptoms, medication adherence, and treatment responses. The tool would also offer:
+            </p>
+            <ul>
+              <li>CBT, MBT, and DBT exercises</li>
+              <li>Readiness for change assessments</li>
+              <li>Patient testimonials and peer support</li>
+              <li>Communication strategies for personal and professional interactions</li>
+              <li>Self-management guidance to enhance confidence and advocacy</li>
+              <li>Resources to break the stigma and isolation surrounding CPP</li>
+            </ul>
+            <p>
+              This accessible solution would enhance patient-provider communication, promote self-efficacy, and support a more integrated approach to CPP care.
             </p>
           </div>
         </div>
@@ -45,22 +57,21 @@ const About = () => {
 
       <section className="team">
         <div className="container">
-          <h2 className="text-center">Our Team</h2>
-          <div className="grid">
-            {teamMembers.map((member, index) => (
-              <motion.div
-                key={member.name}
-                className="team-card"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.2 }}
-                whileHover={{ scale: 1.02 }}
-              >
+          <h2>Our Team</h2>
+          <div className="team-members">
+            {teamMembers.map((member) => (
+              <div key={member.name} className="team-member">
                 <h3>{member.name}</h3>
                 <p className="role">{member.role}</p>
-                <p>{member.bio}</p>
-              </motion.div>
+                <p className="bio">{member.bio}</p>
+                <a href={`mailto:${member.email}`} className="email-button">
+                  Contact via Email
+                </a>
+              </div>
             ))}
+            <p className="additional-team">
+              Our team also includes 2 nurses, 2 physicians, and 8 physiotherapists dedicated to advancing pelvic pain care and research.
+            </p>
           </div>
         </div>
       </section>

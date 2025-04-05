@@ -39,11 +39,12 @@ const Header = () => {
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
             >
+              <li><Link to="/overview">Overview</Link></li>
               <li><Link to="/pelvic-pain-101">Pelvic Pain 101</Link></li>
-              <li><Link to="/overcoming-pain">Overcoming Pain</Link></li>
               <li><Link to="/resources">Resources</Link></li>
               <li><Link to="/recommendations">Recommendations</Link></li>
               <li><Link to="/about">About</Link></li>
+              <li><Link to="/feedback">Feedback</Link></li>
             </motion.ul>
           )}
         </AnimatePresence>

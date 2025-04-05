@@ -33,7 +33,7 @@ const Home = () => {
           >
             <h1>navigating pelvic pain together</h1>
             <p className="lead">
-              Evidence-based resources and support for managing chronic pelvic pain.
+              Evidence-based resources and patient recommendations for managing chronic pelvic pain.
             </p>
             <motion.div 
               className="cta-buttons"
@@ -42,7 +42,7 @@ const Home = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
             >
               <Link to="/pelvic-pain-101" className="button primary">
-                Start Your Journey
+                Head to Resources
               </Link>
             </motion.div>
           </motion.div>
@@ -115,8 +115,8 @@ const Home = () => {
               Join our community and discover comprehensive resources for managing pelvic pain.
             </p>
             <div className="cta-buttons">
-              <Link to="/treatment" className="button primary">
-                Explore Treatment Options
+              <Link to="/resources" className="button primary">
+                Head to Resources
               </Link>
             </div>
           </motion.div>
