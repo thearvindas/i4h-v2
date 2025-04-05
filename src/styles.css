@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 :root {
-  --primary: #60021F;
-  --accent: #F1D4DF;
-  --text-main: #60021F;
+  --primary: #BA7E85;
+  --accent: #E5BEC5;
+  --accent-light: #F8D8DB;
+  --accent-lighter: #FDF7F9;
+  --text-main: #BA7E85;
   --text-light: #8E8E9D;
-  --bg-light: #F7F7F9;
-  --bg-dark: #60021F;
-  --shadow-sm: 0 4px 6px rgba(96, 2, 31, 0.05);
-  --shadow-md: 0 8px 15px rgba(96, 2, 31, 0.1);
-  --shadow-lg: 0 15px 30px rgba(96, 2, 31, 0.15);
+  --bg-light: #FDF7F9;
+  --bg-dark: #BA7E85;
+  --shadow-sm: 0 4px 6px rgba(186, 126, 133, 0.05);
+  --shadow-md: 0 8px 15px rgba(186, 126, 133, 0.1);
+  --shadow-lg: 0 15px 30px rgba(186, 126, 133, 0.15);
 }
 
 /* Base Styles */
@@ -21,7 +23,7 @@ body {
   padding: 0;
   background: var(--bg-light);
   overflow-x: hidden;
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23600210' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23BA7E85' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* Layout */
@@ -69,7 +71,7 @@ header {
   top: 0;
   z-index: 1000;
   transition: all 0.3s ease;
-  border-bottom: 1px solid rgba(96, 2, 31, 0.08);
+  border-bottom: 1px solid rgba(123, 27, 200, 0.08);
 }
 
 header.scrolled {
@@ -94,7 +96,7 @@ nav ul {
 
 .logo {
   text-decoration: none;
-  color: var(--text-main);
+  color: #8A3A5C;
   font-size: 1.5rem;
   font-weight: 500;
   font-family: 'Fraunces', serif;
@@ -110,7 +112,7 @@ nav ul {
   left: 0;
   width: 100%;
   height: 2px;
-  background: var(--primary);
+  background: #BA7E85;
   transform: scaleX(0);
   transition: transform 0.3s ease;
   transform-origin: right;
@@ -131,7 +133,7 @@ nav ul {
 .nav-links a {
   position: relative;
   text-decoration: none;
-  color: var(--text-main);
+  color: #8A3A5C;
   font-weight: 500;
   transition: all 0.2s ease;
   font-family: 'Space Grotesk', sans-serif;
@@ -147,7 +149,7 @@ nav ul {
   left: 0;
   width: 100%;
   height: 2px;
-  background: var(--primary);
+  background: #BA7E85;
   transform: scaleX(0);
   transition: transform 0.3s ease;
   transform-origin: right;
@@ -155,7 +157,7 @@ nav ul {
 }
 
 .nav-links a:hover {
-  color: var(--primary);
+  color: #BA7E85;
 }
 
 .nav-links a:hover::after {
@@ -172,7 +174,7 @@ nav ul {
   overflow: hidden;
   background-image: 
     url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E"),
-    linear-gradient(135deg, var(--primary) 0%, #4A001A 100%);
+    linear-gradient(135deg, var(--primary) 0%, #8A3A5C 100%);
   margin-top: 0;
 }
 
@@ -249,15 +251,15 @@ nav ul {
 }
 
 .hero .button.primary {
-  background: #FFFFFF;
+  background: var(--accent-lighter);
   color: var(--primary);
   box-shadow: var(--shadow-md);
 }
 
 .hero .button.primary:hover {
+  background: var(--accent-light);
   transform: translateY(-3px) scale(1.05);
   box-shadow: var(--shadow-lg);
-  background: #FFFFFF;
 }
 
 /* Search Section */
@@ -304,7 +306,7 @@ nav ul {
   outline: none;
   border-color: var(--primary);
   background: white;
-  box-shadow: 0 0 0 3px rgba(96, 2, 31, 0.1);
+  box-shadow: 0 0 0 3px rgba(123, 27, 200, 0.1);
 }
 
 .search-input::placeholder {
@@ -327,12 +329,12 @@ nav ul {
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(96, 2, 31, 0.2);
+  box-shadow: 0 2px 4px rgba(123, 27, 200, 0.2);
   padding: 0;
 }
 
 .search-button:hover {
-  background: #4A001A;
+  background: #5A14A0;
   transform: translateY(-50%) scale(1.05);
 }
 
@@ -408,6 +410,7 @@ nav ul {
   font-size: 1.75rem;
   margin-bottom: 1.25rem;
   color: var(--primary);
+  font-weight: 600;
   line-height: 1.2;
 }
 
@@ -515,12 +518,13 @@ nav ul {
 }
 
 .button.primary {
-  background: #FFFFFF;
+  background: var(--accent-lighter);
   color: var(--primary);
   box-shadow: var(--shadow-md);
 }
 
 .button.primary:hover {
+  background: var(--accent-light);
   transform: translateY(-3px) scale(1.05);
   box-shadow: var(--shadow-lg);
 }
@@ -572,7 +576,7 @@ footer p {
 footer .credits {
   margin-top: 1rem;
   font-size: 0.9rem;
-  color: var(--accent);
+  color: var(--accent-lighter);
 }
 
 footer a {
@@ -818,7 +822,7 @@ p {
   overflow: hidden;
   background-image: 
     url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E"),
-    linear-gradient(135deg, var(--primary) 0%, #4A001A 100%);
+    linear-gradient(135deg, var(--primary) 0%, #8A3A5C 100%);
   margin-bottom: 0;
 }
 
@@ -864,10 +868,9 @@ p {
   font-family: 'Fraunces', serif;
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, var(--primary), var(--text-main));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--primary);
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 /* Resources Page Styles */
@@ -933,7 +936,7 @@ p {
 }
 
 .resource-card .button:hover {
-  background: #4A001A;
+  background: #8A3A5C;
   transform: translateY(-2px);
 }
 
@@ -1086,7 +1089,7 @@ p {
   color: var(--text-main);
   font-size: 2.25rem;
   line-height: 1.2;
-  background: linear-gradient(135deg, var(--primary), var(--text-main));
+  background: linear-gradient(135deg, var(--primary), var(--accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1500,7 +1503,7 @@ p {
   outline: none;
   border-color: var(--primary);
   background: white;
-  box-shadow: 0 0 0 3px rgba(96, 2, 31, 0.1);
+  box-shadow: 0 0 0 3px rgba(186, 126, 133, 0.1);
 }
 
 .form-group input::placeholder,
